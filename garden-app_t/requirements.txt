@@ -3,5 +3,4 @@ pillow
 requests
 openai
 pandas
-
-supabase-py==1.0.3  # ← GitHub経由ではなく PyPI経由で確実にインストールさせる
+supabase==1.0.3

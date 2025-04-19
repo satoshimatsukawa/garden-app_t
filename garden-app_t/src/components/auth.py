@@ -1,6 +1,6 @@
 # src/components/auth.py
 import streamlit as st
-from supabase import create_client
+from supabase import create_client, Client
 
 def authenticate(supabase):
     if not st.session_state.get("user"):

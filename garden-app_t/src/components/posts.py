@@ -1,6 +1,6 @@
 # src/components/posts.py
 import streamlit as st
-from supabase import create_client
+from supabase import create_client, Client
 from datetime import datetime
 from PIL import Image
 import io
