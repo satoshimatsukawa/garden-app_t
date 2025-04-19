@@ -1,13 +1,18 @@
+pip install supabase==1.0.3
+
 # src/app.py
 import streamlit as st
-from supabase import create_client
+from supabase import create_client, Client
 from components.auth import authenticate, get_user_id
 from components.posts import create_post, post_feed
 from components.advice import get_advice
 from components.stores import get_stores
 
 # Supabase初期化
-#supabase = create_client(st.secrets["SUPABASE_URL"], st.secrets["SUPABASE_KEY"])
+url = st.secrets["SUPABASE_URL"]
+key = st.secrets["SUPABASE_KEY"]
+
+supabase: Client = create_client(url, key)
 
 # CSS
 with open("src/style.css") as f:
