@@ -1,0 +1,6 @@
+streamlit
+supabase
+pillow
+requests
+openai
+pandas
