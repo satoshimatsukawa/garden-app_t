@@ -1,6 +1,8 @@
 streamlit
-supabase==1.0.3
 pillow
 requests
 openai
 pandas
+
+# supabaseをGitHubから直接インストール
+git+https://github.com/supabase-community/supabase-py.git@v1.0.3
