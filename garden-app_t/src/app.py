@@ -1,6 +1,6 @@
 # src/app.py
 import streamlit as st
-from supabase import create_client
+from supabase.client import create_client
 from components.auth import authenticate, get_user_id
 from components.posts import create_post, post_feed
 from components.advice import get_advice
