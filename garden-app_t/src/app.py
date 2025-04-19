@@ -7,7 +7,7 @@ from components.advice import get_advice
 from components.stores import get_stores
 
 # Supabase初期化
-supabase = create_client(st.secrets["supabase"]["url"], st.secrets["supabase"]["key"])
+#supabase = create_client(st.secrets["SUPABASE_URL"], st.secrets["SUPABASE_KEY"])
 
 # CSS
 with open("src/style.css") as f:
