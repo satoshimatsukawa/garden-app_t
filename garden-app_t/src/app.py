@@ -1,5 +1,3 @@
-pip install supabase==1.0.3
-
 # src/app.py
 import streamlit as st
 from supabase import create_client, Client
